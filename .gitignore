@@ -1,0 +1,33 @@
+# Python/Conda Virtual Environment
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+ENV/
+
+# IDE/OS
+.DS_Store
+.vscode/
+.idea/
+
+# Environment secrets
+.env
+!.env.example
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints
+
+# (옵션) 실험 로그/임시파일/대용량 임시
+*.log
+*.tmp
+*.bak
+
+# Streamlit config
+.streamlit/
+.secrets.toml
+
+# (선택, 개인 기록) 모델체크포인트, 대형 학습 아티팩트
+*.ckpt
+*.pt
+*.pth
